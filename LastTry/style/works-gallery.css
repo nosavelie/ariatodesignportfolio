@@ -1,0 +1,111 @@
+@import url("style.css");
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+.start-page {
+    background-image: url("/img/730513.jpg");
+}
+.start-page__menu span {
+    color: #fff;
+}
+.works__home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 320px;
+    text-align: center;
+}
+.works__title p {
+    margin: 0;
+    margin-left: 15vmax;
+    font-weight: 900;
+    font-size: 7vmax;
+    text-align: left;
+    letter-spacing: 10px;
+    color: #fff;
+}
+.start-page__menu span {
+    color: #000;
+}
+.rgline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#rectangle1 {
+    width: 15vmax;
+    height: 2.5vmax;
+    margin-left: 20%;
+    background: #fff;
+}
+#rectangle2 {
+    width: 25vmax;
+    height: 2.5vmax;
+    margin-left: 17%;
+    background: #fff;
+}
+#rectangle3 {
+    width: 2vmax;
+    height: 2vmax;
+    margin-top: 2vmax;
+    margin-left: 10%;
+    background: #fff;
+}
+#rectangle4 {
+    width: 30vmax;
+    height: 2.5vmax;
+    margin-top: 2vmax;
+    margin-left: 15%;
+    background: #fff;
+}
+.works-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.works-gallery-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.works-gallery__item {
+    width: 40vmax;
+    height: 25vmax;
+    margin: 50px;
+    text-decoration: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: .4s;
+}
+.works-gallery__item:hover {
+    transform: scale(1.1);
+}
+/* .works-gallery__item img{
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+@media  (max-width: 1024px) {
+    .works__title {
+        margin-top: -300px;
+    }
+    .works__title p {
+        margin: 0;
+        text-align: center;
+    }
+    #rectangle1 {
+        margin-left: 0;
+    }
+    .works-gallery__item {
+        margin: 50px 0;
+    }
+}
